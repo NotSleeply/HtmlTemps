@@ -1,0 +1,20 @@
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略VSCode设置
+.vscode/
+
+# 忽略node_modules（如有）
+node_modules/
+
+# 忽略打包输出目录（如有）
+dist/
+build/

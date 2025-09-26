@@ -1,6 +1,6 @@
 # HTML模板项目合集
 
-本仓库收集了大量高质量的HTML静态网站模板，涵盖企业官网、电商、博客、作品集、教育、餐饮、医疗等多个行业和场景，适合学习、参考或快速搭建静态网站使用。
+本仓库使用[**PyScript-GitHubRepo**](https://github.com/NotSleeply/PyScript-GitHubRepo)自动化脚本搜集了，大量高质量的HTML静态网站模板，涵盖企业官网、电商、博客、作品集、教育、餐饮、医疗等多个行业和场景，适合学习、参考或快速搭建静态网站使用。
 
 ## 目录结构
 
@@ -30,4 +30,5 @@
 ## 致谢
 
 感谢所有开源模板的设计者与开发者。
-1. [sadee](https://github.com/codewithsadee)
+1. [sadee](https://github.com/codewithsadee)：大部分精美模块取自与此，并且保留了制作过程[codewithsadee](https://www.youtube.com/@codewithsadee);
+2. [模板王](https://www.mobanwang.com/):10000+HTML网站模板免费下载;

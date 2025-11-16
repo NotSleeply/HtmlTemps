@@ -1,0 +1,33 @@
+# GitHub Actions 自动部署纯 HTML 项目到 GitHub Pages
+name: Deploy HTML to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout 代码
+        uses: actions/checkout@v4
+
+      - name: 📤 上传静态文件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+
+      - name: 🚀 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

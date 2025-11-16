@@ -23,10 +23,10 @@ jobs:
       - name: 📥 Checkout 代码
         uses: actions/checkout@v4
 
-      - name: 📦 上传 Pages Artifact
+      - name: 📦 上传静态文件
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./  
+          path: ./
 
       - name: 🚀 部署到 GitHub Pages
         id: deployment
